@@ -14,7 +14,7 @@
                         <div class="collapse navbar-collapse main-menu-item" id="navbarSupportedContent">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="index">Home</a>
+                                    <a class="nav-link" href="/">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="about">about</a>
@@ -26,23 +26,19 @@
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown_1">
                                         <a class="dropdown-item" href="product_list"> product list</a>
-                                        <a class="dropdown-item" href="single-product">product details</a>
+                                        <a class="dropdown-item" href="single_product">Artistry supplies kit</a>
                                         
                                     </div>
                                 </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown_3"
-                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        pages
+                                <li class="nav-item">
+                                    <a class="nav-link" href="login"> 
+                                        login
                                     </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown_2">
-                                        <a class="dropdown-item" href="login"> 
-                                            login
-                                        </a>
-                                        <a class="dropdown-item" href="checkout">product checkout</a>
-                                        <a class="dropdown-item" href="cart">shopping cart</a>
-                                        <a class="dropdown-item" href="confirmation">confirmation</a>
-                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="register"> 
+                                    register
+                                    </a>
                                 </li>
                                 
                                 <li class="nav-item">
@@ -61,7 +57,7 @@
             </div>
         </div>
         <div class="search_input" id="search_input_box">
-            <div class="container ">
+            <div class="container">
                 <form class="d-flex justify-content-between search-inner">
                     <input type="text" class="form-control" id="search_input" placeholder="Search Here">
                     <button type="submit" class="btn"></button>

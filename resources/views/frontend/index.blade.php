@@ -6,8 +6,6 @@
 Artistry Avenue
 @endsection
 
-
-
 <!-- banner part start-->
 <section class="banner_part">
         <div class="container">
@@ -17,7 +15,7 @@ Artistry Avenue
                         <div class="banner_text_iner">
                             <h1>Best quality artistry accessories</h1>
                             <p></p>
-                            <a href="product_list.html" class="btn_1">shop now</a>
+                            <a href="product_list" class="btn_1">shop now</a>
                         </div>
                     </div>
                 </div>
@@ -45,11 +43,9 @@ Artistry Avenue
                             </div>
                             <div class="col-lg-5 col-sm-6">
                                 <div class="single_product_content">
-                                    <h5>Started from $10</h5>
-                                    <h2> <a href="single-product.html">Printed memory foam 
-                                        brief modern throw 
-                                        pillow case</a> </h2>
-                                    <a href="product_list.html" class="btn_3">Explore Now</a>
+                                    <h5>Starts from Rs. 10</h5>
+                                    <h2> <a href="single-product">Premium brushes for Various brush strokes</a> </h2>
+                                    <a href="product_list" class="btn_3">Explore Now</a>
                                 </div>
                             </div>
                         </div>
@@ -64,11 +60,9 @@ Artistry Avenue
                             </div>
                             <div class="col-lg-5 col-sm-6">
                                 <div class="single_product_content">
-                                    <h5>Started from $10</h5>
-                                    <h2> <a href="single-product.html">Printed memory foam 
-                                        brief modern throw 
-                                        pillow case</a> </h2>
-                                    <a href="product_list.html" class="btn_3">Explore Now</a>
+                                    <h5>Starts from Rs. 50</h5>
+                                    <h2> <a href="single-product">Palettes of different shapes and sizes </a> </h2>
+                                    <a href="product_list" class="btn_3">Explore Now</a>
                                 </div>
                             </div>
                         </div>
@@ -83,11 +77,9 @@ Artistry Avenue
                             </div>
                             <div class="col-lg-5 col-sm-6">
                                 <div class="single_product_content">
-                                    <h5>Started from $10</h5>
-                                    <h2> <a href="single-product.html">Printed memory foam 
-                                            brief modern throw 
-                                            pillow case</a> </h2>
-                                    <a href="product_list.html" class="btn_3">Explore Now</a>
+                                    <h5>Starts from Rs. 10</h5>
+                                    <h2> <a href="single-product">Premium quality paints of various shades</a> </h2>
+                                    <a href="product_list" class="btn_3">Explore Now</a>
                                 </div>
                             </div>
                         </div>
@@ -115,45 +107,43 @@ Artistry Avenue
                         <div class="single_product_item_thumb">
                             <img src="{{asset('assets/frontend/img/canvas.jpg')}}" alt="#" class="img-fluid">
                         </div>
-                        <h3> <a href="single-product.html">Cervical pillow for airplane
-                        car office nap pillow</a> </h3>
-                        <p>From $5</p>
+                        <h3> <a href="single-product">CANVAS BOARDS</a> </h3>
+                        <p>From Rs. 100</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single_product_item">
                         <img src="{{asset('assets/frontend/img/colorpencil.avif')}}" alt="#" class="img-fluid">
-                        <h3> <a href="single-product.html">Foam filling cotton slow rebound pillows</a> </h3>
-                        <p>From $5</p>
+                        <h3> <a href="single-product">COLOUR PENCILS</a> </h3>
+                        <p>From Rs. 20</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single_product_item">
                         <img src="{{asset('assets/frontend/img/pencils.avif')}}" alt="#" class="img-fluid">
-                        <h3> <a href="single-product.html">Memory foam filling cotton Slow rebound pillows</a> </h3>
-                        <p>From $5</p>
+                        <h3> <a href="single-product">GRAPHITE PENCILS</a> </h3>
+                        <p>From Rs. 5</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single_product_item">
                         <img src="{{asset('assets/frontend/img/pocketbrush.jpg')}}" alt="#" class="img-fluid">
-                        <h3> <a href="single-product.html">Cervical pillow for airplane
-                        car office nap pillow</a> </h3>
-                        <p>From $5</p>
+                        <h3> <a href="single-product">POCKET BRUSHES</a> </h3>
+                        <p>From Rs. 50</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single_product_item">
                         <img src="{{asset('assets/frontend/img/acrylicpaint.jpg')}}" alt="#" class="img-fluid">
-                        <h3> <a href="single-product.html">Foam filling cotton slow rebound pillows</a> </h3>
-                        <p>From $5</p>
+                        <h3> <a href="single-product">ACRYLIC PAINT</a> </h3>
+                        <p>From Rs. 15</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single_product_item">
                         <img src="{{asset('assets/frontend/img/miniboard.jpg')}}" alt="#" class="img-fluid">
-                        <h3> <a href="single-product.html">Memory foam filling cotton Slow rebound pillows</a> </h3>
-                        <p>From $5</p>
+                        <h3> <a href="single-product">MINI BOARDS</a> </h3>
+                        <p>From Rs. 80</p>
                     </div>
                 </div>
             </div>
@@ -169,21 +159,21 @@ Artistry Avenue
                     <div class="client_review_slider owl-carousel">
                         <div class="single_client_review">
                             <div class="client_img">
-                                <img src="{{asset('assets/frontend/img/client.png')}}" alt="#">
+                                <img src="{{asset('assets/frontend/img/profile.avif')}}" alt="#">
                             </div>
                             <p>"Artistry Avenue has the best quality of art accessories."</p>
                             <h5>- Ali Ahmad</h5>
                         </div>
                         <div class="single_client_review">
                             <div class="client_img">
-                                <img src="{{asset('assets/frontend/img/client_1.png')}}" alt="#">
+                                <img src="{{asset('assets/frontend/img/profile.avif')}}" alt="#">
                             </div>
                             <p>"Artistry Avenue has the best quality and good variety of art accessories."</p>
                             <h5>- Frederic Anderson</h5>
                         </div>
                         <div class="single_client_review">
                             <div class="client_img">
-                                <img src="{{asset('assets/frontend/img/client_2.png')}}" alt="#">
+                                <img src="{{asset('assets/frontend/img/profile.avif')}}" alt="#">
                             </div>
                             <p>"Artistry Avenue is the most trusted place to buy artistry products."</p>
                             <h5>- Niklas Asker</h5>

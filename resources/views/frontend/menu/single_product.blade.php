@@ -31,25 +31,24 @@ Artistry Avenue
   <div class="product_image_area">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-12">
+        <div class="col-lg-5">
           <div class="product_img_slide owl-carousel">
             <div class="single_product_img">
-              <img src="img/product/single_product.png" alt="#" class="img-fluid">
+              <img src="{{asset('assets/frontend/img/brushes.jpg')}}" alt="#" class="img-fluid">
             </div>
             <div class="single_product_img">
-              <img src="img/product/single_product.png" alt="#" class="img-fluid">
+              <img src="{{asset('assets/frontend/img/canvas1.jpg')}}" alt="#" class="img-fluid">
             </div>
             <div class="single_product_img">
-              <img src="img/product/single_product.png" alt="#" class="img-fluid">
+              <img src="{{asset('assets/frontend/img/paint.jpg')}}" alt="#" class="img-fluid">
             </div>
           </div>
         </div>
         <div class="col-lg-8">
           <div class="single_product_text text-center">
-            <h3>Foam filling cotton slow <br>
-                rebound pillows</h3>
+            <h3>Artistry Supplies Kit</h3>
             <p>
-                Seamlessly empower fully researched growth strategies and interoperable internal or “organic” sources. Credibly innovate granular internal or “organic” sources whereas high standards in web-readiness. Credibly innovate granular internal or organic sources whereas high standards in web-readiness. Energistically scale future-proof core competencies vis-a-vis impactful experiences. Dramatically synthesize integrated schemas. with optimal networks.
+            This artistry supplies kit aims to provide a well-rounded selection of essential materials that cater to both painting and drawing activities. It's suitable for beginners or artists looking to explore different mediums without overwhelming them with too many options. Depending on the budget and specific preferences, the contents of the kit can be customized or expanded to include more specialized tools or additional art supplies.
             </p>
             <div class="card_area">
                 <div class="product_count_area">
@@ -59,7 +58,7 @@ Artistry Avenue
                         <input class="product_count_item input-number" type="text" value="1" min="0" max="10">
                         <span class="product_count_item number-increment"> <i class="ti-plus"></i></span>
                     </div>
-                    <p>$5</p>
+                    <p>Rs. 5990</p>
                 </div>
               <div class="add_to_cart">
                   <a href="#" class="btn_3">add to cart</a>

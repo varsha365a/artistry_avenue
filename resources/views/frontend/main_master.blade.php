@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>pillloMart</title>
+    <title>Artistry Avenue</title>
     <link rel="icon" href="img/favicon.png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{asset('assets/frontend/css/bootstrap.min.css')}}">
@@ -24,6 +24,9 @@
     <link rel="stylesheet" href="{{asset('assets/frontend/css/slick.css')}}">
     <!-- style CSS -->
     <link rel="stylesheet" href="{{asset('assets/frontend/css/style.css')}}">
+    <!-- magnific popup CSS -->
+    <link rel="stylesheet" href="{{asset('assets/frontend/css/magnific-popup.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/frontend/css/nice-select.css')}}">
 </head>
 
 <body>
@@ -49,6 +52,15 @@
     <script src="{{asset('assets/frontend/js/jquery.magnific-popup.js')}}"></script>
     <!-- carousel js -->
     <script src="{{asset('assets/frontend/js/owl.carousel.min.js')}}"></script>
+    <script src="{{asset('assets/frontend/js/jquery.nice-select.min.js')}}"></script>
+    <!-- easing js -->
+    <script src="{{asset('assets/frontend/js/jquery.magnific-popup.js')}}"></script>
+    <!-- swiper js -->
+    <script src="{{asset('assets/frontend/js/swiper.min.js')}}"></script>
+    <!-- swiper js -->
+    <script src="{{asset('assets/frontend/js/mixitup.min.js')}}"></script>
+     <!-- particles js -->
+     <script src="{{asset('assets/frontend/js/owl.carousel.min.js')}}"></script>
     <script src="{{asset('assets/frontend/js/jquery.nice-select.min.js')}}"></script>
     <!-- slick js -->
     <script src="{{asset('assets/frontend/js/slick.min.js')}}"></script>

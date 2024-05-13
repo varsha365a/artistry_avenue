@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-        
+
 
 @extends('Frontend.main_master')
 @section('content')
@@ -157,13 +149,12 @@ Artistry Avenue
                     </h6>
                     <select class="shipping_select">
                       <option value="1">Bangladesh</option>
-                      <option value="2">India</option>
-                      <option value="4">Pakistan</option>
+                      <!-- <option value="2">India</option>
+                      <option value="4">Pakistan</option> -->
                     </select>
                     <select class="shipping_select section_bg">
                       <option value="1">Select a State</option>
-                      <option value="2">Select a State</option>
-                      <option value="4">Select a State</option>
+                      
                     </select>
                     <input class="post_code" type="text" placeholder="Postcode/Zipcode" />
                     <a class="btn_1" href="#">Update Details</a>
@@ -182,5 +173,3 @@ Artistry Avenue
   <!--================End Cart Area =================-->
 
 @endsection
-</body>
-</html>

@@ -39,6 +39,50 @@ Route::get('/single_product', function () {
     return view('Frontend.menu.single_product');
 });
 
+// Backend routes
+
+Route::get('/index', function () {
+    return view('Backend.index');
+});
+
+Route::get('/authentication-login', function () {
+    return view('Backend.menu.authentication-login');
+});
+
+Route::get('/icon-tabler', function () {
+    return view('Backend.menu.icon-tabler');
+});
+
+Route::get('/sample-page', function () {
+    return view('Backend.menu.sample-page');
+});
+
+Route::get('/authentication-register', function () {
+    return view('Backend.menu.authentication-register');
+});
+
+Route::get('/ui-alerts', function () {
+    return view('Backend.menu.ui-alerts');
+});
+
+Route::get('/ui-buttons', function () {
+    return view('Backend.menu.ui-buttons');
+});
+
+Route::get('/ui-card', function () {
+    return view('Backend.menu.ui-card');
+});
+
+Route::get('/ui-forms', function () {
+    return view('Backend.menu.ui-forms');
+});
+
+Route::get('/ui-typography', function () {
+    return view('Backend.menu.ui-typography');
+});
+
+//backend routes end.
+
 
     
 Route::view('dashboard', 'dashboard')

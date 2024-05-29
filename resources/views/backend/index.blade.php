@@ -5,7 +5,6 @@
 @section('title')
 Artistry Avenue
 @endsection
-  <head><title>D</title></head>
       <div class="container-fluid">
         <!--  Row 1 -->
         <div class="row">

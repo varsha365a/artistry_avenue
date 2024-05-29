@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Modernize Free</title>
+  <title>Register</title>
   <link rel="shortcut icon" type="image/png" href="{{asset('assets/backend/images/logos/favicon.png')}}" />
   <link rel="stylesheet" href="{{asset('assets/backend/css/styles.min.css')}}" />
 </head>
@@ -21,7 +21,7 @@
             <div class="card mb-0">
               <div class="card-body">
                 <a href="./index.html" class="text-nowrap logo-img text-center d-block py-3 w-100">
-                  <img src="{{asset('assets/backend/images/logos/dark-logo.svg')}}" width="180" alt="">
+                  <img src="{{asset('assets/frontend/img/logo.png')}}" width="180" alt="">
                 </a>
                 <p class="text-center">Your Social Campaigns</p>
                 <form>

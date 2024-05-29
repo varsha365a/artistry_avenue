@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Artistry Avenue - Products </title>
 </head>
 <body>
         
@@ -51,95 +51,27 @@ Artistry Avenue
                                 </div>
                             </div>
                         </div>
-                        <div class="single_sedebar">
+                        <!-- <div class="single_sedebar">
                             <div class="select_option">
                                 <div class="select_option_list">Type <i class="right fas fa-caret-down"></i> </div>
                                 <div class="select_option_dropdown">
                                     <p><a href="#">Adhesives (glue, tape)</a></p>
                                     <p><a href="#">Scissors and cutting tools</a></p>
                                     <p><a href="#">Decorative papers</a></p>
-                                    <p><a href="#">embellishments</a></p>
+                                    <p><a href="#">Embellishments</a></p>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8" id="">
                     <div class="product_list">
                         <div class="row">
                             <div class="col-lg-6 col-sm-6">
                                 <div class="single_product_item">
-                                    <img src="{{asset('assets/frontend/img/brushes.jpg')}}" alt="#" class="img-fluid">
-                                    <h3> <a href="single-product.html"></a> </h3>
-                                    <p>BRUSHES</p><p>Starts from Rs. 10</p>
+                                    
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-sm-6">
-                                <div class="single_product_item">
-                                    <img src="{{asset('assets/frontend/img/palette.jpg')}}" alt="#" class="img-fluid">
-                                    <h3> <a href="single-product.html"></a> </h3>
-                                    <p>PALETTE</p><p>Starts from Rs. 50</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-sm-6">
-                                <div class="single_product_item">
-                                    <img src="{{asset('assets/frontend/img/paint.jpg')}}" alt="#" class="img-fluid">
-                                    <h3> <a href="single-product.html"></a> </h3>
-                                    <p>PAINT</p><p>Starts from Rs. 10</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-sm-6">
-                                <div class="single_product_item">
-                                    <img src="{{asset('assets/frontend/img/canvas1.jpg')}}" alt="#" class="img-fluid">
-                                    <h3> <a href="single-product.html"></a> </h3>
-                                    <p>CANVAS</p><p>Starts from Rs. 100</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-sm-6">
-                                <div class="single_product_item">
-                                    <img src="{{asset('assets/frontend/img/colorpencil.avif')}}" alt="#" class="img-fluid">
-                                    <h3> <a href="single-product.html"></a> </h3>
-                                    <p>COLOUR PENCIL</p><p>Starts from Rs. 20</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-sm-6">
-                                <div class="single_product_item">
-                                    <img src="{{asset('assets/frontend/img/pencils.avif')}}" alt="#" class="img-fluid">
-                                    <h3> <a href="single-product.html"></a> </h3>
-                                    <p>GRAPHITE PENCILS</p><p>Starts from Rs. 5</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-sm-6">
-                                <div class="single_product_item">
-                                    <img src="{{asset('assets/frontend/img//pocketbrush.jpg')}}" alt="#" class="img-fluid">
-                                    <h3> <a href="single-product.html"></a> </h3>
-                                    <p>POCKET BRUSH</p><p>Starts from Rs. 50</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-sm-6">
-                                <div class="single_product_item">
-                                    <img src="{{asset('assets/frontend/img/acrylicpaint.jpg')}}" alt="#" class="img-fluid">
-                                    <h3> <a href="single-product.html"></a> </h3>
-                                    <p>ACRYLIC PAINT</p><p>Starts from Rs. 30</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-sm-6">
-                                <div class="single_product_item">
-                                    <img src="{{asset('assets/frontend/img/watercolor.jpg')}}" alt="#" class="img-fluid">
-                                    <h3> <a href="single-product.html"></a> </h3>
-                                    <p>WATER COLOUR</p><p>Starts from Rs. 60</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-sm-6">
-                                <div class="single_product_item">
-                                    <img src="{{asset('assets/frontend/img/paletteknife.jpg')}}" alt="#" class="img-fluid">
-                                    <h3> <a href="single-product.html"></a> </h3>
-                                    <p>PALETTE KNIFE</p><p>Starts from Rs. 80</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="load_more_btn text-center">
-                            <a href="product_list" class="btn_3">Load More</a>
                         </div>
                     </div>
                 </div>

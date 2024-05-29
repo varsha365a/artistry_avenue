@@ -1,7 +1,14 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UploadController;
 
+//upload image crud
+
+Route::post('upload',[UploadController::class, 'store']);
+
+
+//frontend routes
 
 Route::get('/', function () {
     return view('Frontend.index');
@@ -43,6 +50,14 @@ Route::get('/single_product', function () {
 
 Route::get('/index', function () {
     return view('Backend.index');
+});
+
+Route::get('/orders', function () {
+    return view('Backend.menu.orders');
+});
+
+Route::get('/upload', function () {
+    return view('Backend.menu.upload');
 });
 
 Route::get('/authentication-login', function () {
@@ -92,5 +107,12 @@ Route::view('dashboard', 'dashboard')
 Route::view('profile', 'profile')
     ->middleware(['auth'])
     ->name('profile');
+
+
+
+Route::post('/test/store',[TestController::class, 'store'])->name('test.store');
+
+Route::get('/test/create', [TestController::class, 'create']);
+
 
 require __DIR__.'/auth.php';

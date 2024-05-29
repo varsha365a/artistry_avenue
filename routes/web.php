@@ -5,7 +5,8 @@ use App\Http\Controllers\UploadController;
 
 //upload image crud
 
-Route::post('upload',[UploadController::class, 'store']);
+Route::get('/product_list', [UploadController::class, 'index'])->name('product_list');
+Route::post('/product_list', [UploadController::class, 'store']);
 
 
 //frontend routes
@@ -107,12 +108,6 @@ Route::view('dashboard', 'dashboard')
 Route::view('profile', 'profile')
     ->middleware(['auth'])
     ->name('profile');
-
-
-
-Route::post('/test/store',[TestController::class, 'store'])->name('test.store');
-
-Route::get('/test/create', [TestController::class, 'create']);
 
 
 require __DIR__.'/auth.php';

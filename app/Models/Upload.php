@@ -8,10 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Upload extends Model
 {
     use HasFactory;
-    protected $table='students';
-    protected $fillable=[
-        'name',
-        'price',
-        'image',
+
+    protected $fillable = [
+        'name', 'price', 'image',
     ];
 }

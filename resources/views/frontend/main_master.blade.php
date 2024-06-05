@@ -38,12 +38,10 @@
                 @yield('content')
                 <!-- main content end -->
 
-                <!-- footer start -->
-                @include('frontend.body.footer')
-                <!-- footer end -->
 
- <!-- jquery plugins here-->
- <script src="{{asset('assets/frontend/js/jquery-1.12.1.min.js')}}"></script>
+
+    <!-- jquery plugins here-->
+    <script src="{{asset('assets/frontend/js/jquery-1.12.1.min.js')}}"></script>
     <!-- popper js -->
     <script src="{{asset('assets/frontend/js/popper.min.js')}}"></script>
     <!-- bootstrap js -->
@@ -73,6 +71,11 @@
     <script src="{{asset('assets/frontend/js/mail-script.js')}}"></script>
     <!-- custom js -->
     <script src="{{asset('assets/frontend/js/custom.js')}}"></script>
+
+                    <!-- footer start -->
+                    @include('frontend.body.footer')
+                <!-- footer end -->
+
 </body>
 
 </html>

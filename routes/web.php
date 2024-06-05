@@ -5,8 +5,8 @@ use App\Http\Controllers\UploadController;
 
 //upload image crud
 
-Route::get('/product_list', [UploadController::class, 'index'])->name('product_list');
-Route::post('/product_list', [UploadController::class, 'store']);
+Route::get('/products', [UploadController::class, 'index']);
+// Route::post('/product_list', [UploadController::class, 'store']);
 
 
 //frontend routes
@@ -39,9 +39,9 @@ Route::get('/login', function () {
     return view('Frontend.menu.login');
 });
 
-Route::get('/product_list', function () {
-    return view('Frontend.menu.product_list');
-});
+// Route::get('/product_list', function () {
+//     return view('Frontend.menu.product_list');
+// });
 
 Route::get('/single_product', function () {
     return view('Frontend.menu.single_product');
@@ -111,3 +111,5 @@ Route::view('profile', 'profile')
 
 
 require __DIR__.'/auth.php';
+
+?>

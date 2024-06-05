@@ -6,7 +6,7 @@
                     <div class="col-lg-8">
                         <div class="footer_menu">
                             <div class="footer_logo">
-                                <a href="/"><img src="{{asset('assets/frontend/img/logo.png')}}" height="100" alt="logo"></a>
+                                <a href="/"><img src="{{asset('assets/frontend/img/logo.jpg')}}" alt="logo"></a>
                             </div>
                             <div class="footer_menu_item">
                                 <a href="index ">Home</a>

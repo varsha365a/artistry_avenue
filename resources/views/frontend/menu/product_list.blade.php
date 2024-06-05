@@ -4,6 +4,8 @@
 Artistry Avenue
 @endsection
 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
 <!-- breadcrumb part start-->
 <section class="breadcrumb_part">
     <div class="container">
@@ -18,40 +20,155 @@ Artistry Avenue
 </section>
 <!-- breadcrumb part end-->
 
+<!-- Tab content part start -->
+<div class="tab-content col-lg-6 float-right">   
+        <div class="tab-pane fade mt-5 text-center" role="tabpanel" id="home" aria-labelledby="home-tab">
+            <div>
+                <div class="product_list">
+                    <div>
+                        <div class="feature_part_content ">
+                            <h2>ART SETS AND KITS</h2>
+                            <h6>Starter kits for beginners (drawing, painting, mixed media)</h6>
+                            <img src="{{asset('assets/frontend/img/kit1.webp')}}" class="img-fluid" width="70%" alt="#">
+                            <h6>Gift sets for special occasions (holiday sets, themed sets)</h6>
+                            <img src="{{asset('assets/frontend/img/giftset.jpg')}}" class="img-fluid" width="70%" alt="#">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade mt-5 text-center" role="tabpanel" id="about" aria-labelledby="about-tab">
+            <div>
+                <div class="product_list">
+                    <div>
+                        <div class="feature_part_content">
+                            <h2>STORAGE AND ORGANIZATION</h2>
+                            <h6>Art supply storage boxes and organizers</h6>
+                            <img src="{{asset('assets/frontend/img/organizeer.jpg')}}" class="img-fluid" width="70%" alt="#">
+                            <h6>Portfolio cases and art bags for transporting artwork</h6>
+                            <img src="{{asset('assets/frontend/img/artbox.jpg')}}" class="img-fluid" width="70%" alt="#">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade mt-5 text-center" role="tabpanel" id="info" aria-labelledby="info-tab">
+            <div>
+                <div class="product_list">
+                    <div>
+                    <div class="feature_part_content">
+                            <h2>FINE ART MATERIALS</h2>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <h6>Sculpting clay</h6>
+                                    <img src="{{asset('assets/frontend/img/sculpting clay.jpg')}}" class="img-fluid" alt="#">
+                                </div>
+                                <div class="col-lg-6">
+                                    <h6>Modeling clay</h6>
+                                    <img src="{{asset('assets/frontend/img/clay.jpg')}}" class="img-fluid" alt="#">
+                                </div>
+                            </div>  
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <h6>Pottery wheels and ceramic supplies</h6>
+                                    <img src="{{asset('assets/frontend/img/Pottery wheels.jpg')}}" class="img-fluid" alt="#">
+                                </div>
+                                <div class="col-lg-6">
+                                    <h6>Woodworking tools (for art projects)</h6>
+                                    <img src="{{asset('assets/frontend/img/giftset.jpg')}}" class="img-fluid" alt="#">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        <div class="tab-pane fade mt-5 text-center" role="tabpanel" id="contact" aria-labelledby="contact-tab">
+            <div>
+                <div class="product_list">
+                    <div>
+                        <div class="feature_part_content">
+                            <h2>DRAWING TOOLS</h2>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <h6>Graphite pencils</h6>
+                                    <img src="{{asset('assets/frontend/img/pencils.avif')}}" class="img-fluid" width="70%" alt="#">
+                                </div>
+                                <div class="col-lg-6"> 
+                                    <h6>Colored pencils</h6>
+                                    <img src="{{asset('assets/frontend/img/coloredpencils.avif')}}" width="80%" class="img-fluid" alt="#">
+                                </div>
+
+                            </div>
+                            <div class="row">   
+                                <div class="col-lg-6">
+                                    <h6>Charcoal pencils and sticks</h6>
+                                    <img src="{{asset('assets/frontend/img/charcoal.jpg')}}" class="img-fluid" alt="#">
+                                </div>
+                                <div class="col-lg-6">
+                                    <h6>Pastels(soft pastels, oil pastels)</h6>
+                                    <img src="{{asset('assets/frontend/img/oilpastel.jpg')}}" class="img-fluid" alt="#">
+                                </div>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Tab content part end -->
+
 <!-- product list part start-->
 <section class="product_list section_padding">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
                 <div class="product_sidebar">
-                    <div class="single_sedebar">
+                    <!-- <div class="single_sedebar">
                         <form action="#">
                             <input type="text" name="#" placeholder="Search keyword">
                             <i class="ti-search"></i>
                         </form>
-                    </div>
+                    </div> -->
                     <div class="single_sedebar">
                         <div class="select_option">
                             <div class="select_option_list">Category <i class="right fas fa-caret-down"></i> </div>
-                            <div class="select_option_dropdown">
-                                <p><a href="#">Art Sets and Kits</a></p>
-                                <p><a href="#">Storage and Organization</a></p>
-                                <p><a href="#">Fine Art Materials</a></p>
-                                <p><a href="#">Drawing Tools</a></p>
+                            <div class="select_option_dropdown nav nav-tabs">
+                                <li class="nav-item" role="presentation">
+                                    <a type="button" role="tab" class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" aria-controls="home">Art Sets and Kits</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a type="button" role="tab" class="nav-link" id="about-tab" data-bs-toggle="tab" data-bs-target="#about" aria-controls="about">Storage and Organization</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a type="button" role="tab" class="nav-link" id="info-tab" data-bs-toggle="tab" data-bs-target="#info" aria-controls="info">Fine Art Materials</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a type="button" role="tab" class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" aria-controls="contact">Drawing Tools</a>
+                                </li>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-8" id="">
+
+ 
+
+<!-- Product details fetch and display using database -->
+            <div class="col-md-8 float-right" id="">
                 <div class="product_list">
                     <div class="row">
-                        @foreach($products as $product)
+                        @foreach ($prod ??[] as $product)
                             <div class="col-lg-6 col-sm-6">
                                 <div class="single_product_item">
-                                    <img src="{{ url('uploads/pics/' . $product->image) }}" alt="{{ $product->name }}" class="img-fluid">
-                                    <h3>{{ $product->name }}</h3>
-                                    <p>Price: {{ $product->price }}</p>
+                                    <img src="{{ asset('uploads/pics/' . $product->image) }}" alt="{{ $product->name }}">
+                                    <div class="product_text">
+                                        <h3>{{ $product->name }}</h3>
+                                        <h4>${{ number_format($product->price, 2) }}</h4>
+                                    </div>
+                                    <div class="load_more_btn text-center">
+                                        <a href="#" class="btn_3 mt-3">Load More</a>
+                                    </div>
                                 </div>
                             </div>
                         @endforeach
@@ -61,7 +178,8 @@ Artistry Avenue
         </div>
     </div>
 </section>
-<!-- product list part end-->
+<!-- product list part end --> 
+
 
 <!-- client review part here -->
 <section class="client_review">
@@ -162,3 +280,6 @@ Artistry Avenue
 <!-- subscribe part end -->
 
 @endsection
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

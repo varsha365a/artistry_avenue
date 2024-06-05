@@ -4,7 +4,7 @@
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href="index"> <img src="{{asset('assets/frontend/img/logo.png')}}" alt="logo" height="150" > </a>
+                        <a class="navbar-brand" href="index"> <img src="{{asset('assets/frontend/img/logo.jpg')}}" alt="logo"  > </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -25,9 +25,19 @@
                                         products
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown_1">
-                                        <a class="dropdown-item" href="product_list"> product list</a>
+                                        <a class="dropdown-item" href="product_list">product list</a>
                                         <a class="dropdown-item" href="single_product">Artistry supplies kit</a>
-                                        
+                                        <div class="dropdown-item" aria-labelledby="navbarDropdown_1">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown_1"
+                                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            categories
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown_1">
+                                                <a class="dropdown-item" href="product_list">art sets</a>
+                                                <a class="dropdown-item" href="product_list">storage and organisation</a>
+                                                <a class="dropdown-item" href="product_list">fine art materials</a>
+                                                <a class="dropdown-item" href="product_list">drawing tools</a>
+                                            </div>
                                     </div>
                                 </li>
                                 <li class="nav-item">

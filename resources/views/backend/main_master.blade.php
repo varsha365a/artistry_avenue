@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Artistry Avenue-Admin</title>
-    <link rel="shortcut icon" type="image/png" href="{{asset('assets/frontend/img/logo.png')}}" />
+    <link rel="shortcut icon" type="image/png" href="{{asset('assets/frontend/img/ logo.jpg')}}" />
     <link rel="stylesheet" href="{{asset('assets/backend/css/styles.min.css')}}" />
 </head>
 <body>

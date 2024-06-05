@@ -1,17 +1,46 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
-use App\Models\Upload; // Ensure the correct model is used
+use App\Models\Upload; 
+use DB;
 
 class UploadController extends Controller
 {
+    // public function index()
+    // {
+        
+    //     $products = Upload::all(); // Fetch all products from the database
+    //     return view('frontend.product_list', compact('products'));
+    // }
+    // public function index()
+    // {
+    //     try {
+    //         Log::info('Attempting to fetch all products.');
+    //         $products = Upload::all();
+    //         Log::info('Products fetched successfully.', ['products' => $products]);
+    //         if ($products->isEmpty()) {
+    //             Log::info('No products found.');
+    //             return view('frontend.menu.product_list')->with('message', 'No products found.');
+    //         }
+
+    //         // Return view with products
+    //         // return view('frontend.menu.product_list', compact('products'));
+    //         return view('frontend.menu.product_list')->with('product', $products);
+
+    //     } catch (\Exception $e) {
+    //         // Log the error
+    //         Log::error('Error fetching products: ' . $e->getMessage());
+
+    //         // Optionally, you can return a view with an error message
+    //         return view('frontend.menu.product_list')->with('error', 'Unable to retrieve products at this time.');
+    //     }
+    // }
     public function index()
     {
-        $products = Upload::all(); // Fetch all products
-        dd($products); 
-        return view('product_list', compact('products')); // Pass the products to the view
+        $prod = Upload::all();
+        dd($prod);
+        return view('frontend.menu.product_list', compact('prod'));
     }
 
     public function store(Request $request)
@@ -40,3 +69,4 @@ class UploadController extends Controller
     }
 }
 
+?>

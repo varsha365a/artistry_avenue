@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Artistry Kit</title>
 </head>
 <body>
         
@@ -34,7 +34,7 @@ Artistry Avenue
         <div class="col-lg-5">
           <div class="product_img_slide owl-carousel">
             <div class="single_product_img">
-              <img src="{{asset('assets/frontend/img/brushes.jpg')}}" alt="#" class="img-fluid">
+              <img src="{{asset('assets/frontend/img/giftset.jpg')}}" alt="#" class="img-fluid">
             </div>
             <div class="single_product_img">
               <img src="{{asset('assets/frontend/img/canvas1.jpg')}}" alt="#" class="img-fluid">

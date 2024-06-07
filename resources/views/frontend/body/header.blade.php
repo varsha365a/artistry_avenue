@@ -14,7 +14,7 @@
                         <div class="collapse navbar-collapse main-menu-item" id="navbarSupportedContent">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/">Home</a>
+                                    <a class="nav-link" href="index">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="about">about</a>
@@ -25,19 +25,8 @@
                                         products
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown_1">
-                                        <a class="dropdown-item" href="product_list">product list</a>
-                                        <a class="dropdown-item" href="single_product">Artistry supplies kit</a>
-                                        <div class="dropdown-item" aria-labelledby="navbarDropdown_1">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown_1"
-                                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            categories
-                                            </a>
-                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown_1">
-                                                <a class="dropdown-item" href="product_list">art sets</a>
-                                                <a class="dropdown-item" href="product_list">storage and organisation</a>
-                                                <a class="dropdown-item" href="product_list">fine art materials</a>
-                                                <a class="dropdown-item" href="product_list">drawing tools</a>
-                                            </div>
+                                        <a class="dropdown-item" href="categories">categories</a>
+                                        <a class="dropdown-item" href="product_list">products</a>
                                     </div>
                                 </li>
                                 <li class="nav-item">

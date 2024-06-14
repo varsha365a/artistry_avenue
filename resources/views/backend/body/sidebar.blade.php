@@ -23,7 +23,7 @@
             <li class="sidebar-item">
               <a class="sidebar-link" href="index" aria-expanded="false">
                 <span>
-                  <i class="ti ti-layout-dashboard"></i>
+                  <i class="ti ti-graph"></i>
                 </span>
                 <span class="hide-menu">Dashboard</span>
               </a>
@@ -42,11 +42,19 @@
               </a>
             </li>
             <li class="sidebar-item">
+              <a class="sidebar-link" href="posts/index" aria-expanded="false">
+                <span>
+                  <i class="ti ti-layout-dashboard"></i>
+                </span>
+                <span class="hide-menu">Uploads</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
               <a class="sidebar-link" href="upload" aria-expanded="false">
                 <span>
                   <i class="ti ti-upload"></i>
                 </span>
-                <span class="hide-menu">Upload</span>
+                <span class="hide-menu">Add Product</span>
               </a>
             </li>
             <!-- <li class="sidebar-item">

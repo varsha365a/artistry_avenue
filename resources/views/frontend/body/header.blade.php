@@ -14,7 +14,7 @@
                         <div class="collapse navbar-collapse main-menu-item" id="navbarSupportedContent">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="index">Home</a>
+                                    <a class="nav-link" href="">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="about">about</a>
@@ -25,7 +25,7 @@
                                         products
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown_1">
-                                        <a class="dropdown-item" href="categories">categories</a>
+                                        <a class="dropdown-item" href="category">categories</a>
                                         <a class="dropdown-item" href="product_list">products</a>
                                     </div>
                                 </li>

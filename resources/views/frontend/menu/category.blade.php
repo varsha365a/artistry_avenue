@@ -52,7 +52,7 @@ Artistry Avenue
                 </div>
             </div>
         </div>
-        <div class="tab-pane fade mt-5 text-center" role="tabpanel" id="info" aria-labelledby="info-tab">
+        <div class="tab-pane fade mt-5  text-center" role="tabpanel" id="info" aria-labelledby="info-tab">
             <div>
                 <div class="product_list">
                     <div>
@@ -130,9 +130,9 @@ Artistry Avenue
                             <i class="ti-search"></i>
                         </form>
                     </div> -->
-                    <div class="single_sedebar">
+                    <div class="single_sedebar" style="margin-bottom:200px;">
                         <div class="select_option">
-                            <div class="select_option_list">Category <i class="right fas fa-caret-down"></i> </div>
+                            <div class="select_option_list">Category <i class="right fas fa-caret-down"></i></div>
                             <div class="select_option_dropdown nav nav-tabs">
                                 <li class="nav-item" role="presentation">
                                     <a type="button" role="tab" class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" aria-controls="home">Art Sets and Kits</a>
@@ -151,6 +151,7 @@ Artistry Avenue
                     </div>
                 </div>
             </div>
+        </div> 
 
 <!-- client review part here -->
 <section class="client_review">

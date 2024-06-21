@@ -1,8 +1,19 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\AdminController;
+
+//Routes for admin controller
+Route::prefix('admin')->group(function () {
+    Route::get('/login', [AdminController::class, 'showLoginForm'])->name('admin.login');
+    Route::post('/login', [AdminController::class, 'login']);
+    Route::post('/logout', [AdminController::class, 'logout'])->name('admin.logout');
+    Route::get('/register', [AdminController::class, 'showRegisterForm'])->name('admin.register'); // Add this line
+    Route::post('/register', [AdminController::class, 'createAdmin'])->name('admin.register.post');
+});
 
 //Routes for post controller
 Route::resource('posts', PostController::class);
@@ -20,6 +31,7 @@ Route::get('/posts/{post}/edit', PostController::class .'@edit')->name('posts.ed
 Route::put('/posts/{post}', PostController::class .'@update')->name('posts.update');
 // deletes a post
 Route::delete('/posts/{post}', PostController::class .'@destroy')->name('posts.destroy');
+
 
 //frontend routes
 
@@ -69,7 +81,5 @@ Route::view('profile', 'profile')
     ->middleware(['auth'])
     ->name('profile');
 
-
-require __DIR__.'/auth.php';
 
 ?>

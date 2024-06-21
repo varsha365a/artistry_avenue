@@ -94,15 +94,30 @@
               <span class="hide-menu">AUTH</span>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="authentication-login" aria-expanded="false">
+              <a class="sidebar-link" href="{{ route('admin.logout') }}" aria-expanded="false" onclick="event.preventDefault(); confirmLogout();">
                 <span>
                   <i class="ti ti-login"></i>
                 </span>
-                <span class="hide-menu">Login</span>
+                <span class="hide-menu">Logout</span>
+
+                <form id="logout-form" action="{{ route('admin.logout') }}" method="POST" style="display: none;">
+                    @csrf
+                </form>
+
+                
+                <script>
+                function confirmLogout() {
+                    if (confirm('Are you sure you want to logout?')) 
+                    {
+                        document.getElementById('logout-form').submit();
+                    }
+                }
+                </script>
+
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="authentication-register" aria-expanded="false">
+              <a class="sidebar-link" href="back/auth_register" aria-expanded="false">
                 <span>
                   <i class="ti ti-user-plus"></i>
                 </span>

@@ -13,6 +13,12 @@ class PostController extends Controller
         return view('posts.index', compact('posts'));
     }
 
+    // public function post()
+    // {
+    //     $posts = Post::all();
+    //     return view('front.product_list');
+    // }
+
     public function create()
     {
         return view('back.upload');
@@ -52,7 +58,6 @@ class PostController extends Controller
     public function edit($id)
     {
         $post = Post::find($id);
-
         if (!$post) {
             return redirect()->route('posts.index')->with('error', 'Post not found.');
         }
@@ -90,14 +95,18 @@ class PostController extends Controller
 
         return redirect()->route('posts.index')->with('success', 'Post updated successfully.');
     }
-    
 
     public function destroy($id)
     {
         $post = Post::findOrFail($id);
-        $post->delete(); // Soft delete
+        $post->delete(); 
+
+        $notification = [
+            'message' => 'Post Deleted Successfully',
+            'alert-type' => 'info'
+        ];
         
-        return redirect()->route('posts.index')->with('success', 'Post deleted successfully.');
+        return redirect()->route('posts.index')->with($notification);
     }
 }
 ?>

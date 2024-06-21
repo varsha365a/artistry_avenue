@@ -44,8 +44,8 @@ Artistry Avenue
                             <div class="col-lg-5 col-sm-6">
                                 <div class="single_product_content">
                                     <h5>Starts from Rs. 10</h5>
-                                    <h2> <a href="single-product">Premium brushes for Various brush strokes</a> </h2>
-                                    <a href="product_list" class="btn_3">Explore Now</a>
+                                    <h2> <a href="product_list">Premium brushes for Various brush strokes</a> </h2>
+                                    <a href="category" class="btn_3">Explore Now</a>
                                 </div>
                             </div>
                         </div>
@@ -61,8 +61,8 @@ Artistry Avenue
                             <div class="col-lg-5 col-sm-6">
                                 <div class="single_product_content">
                                     <h5>Starts from Rs. 50</h5>
-                                    <h2> <a href="single-product">Palettes of different shapes and sizes </a> </h2>
-                                    <a href="product_list" class="btn_3">Explore Now</a>
+                                    <h2> <a href="product_list">Palettes of different shapes and sizes </a> </h2>
+                                    <a href="category" class="btn_3">Explore Now</a>
                                 </div>
                             </div>
                         </div>
@@ -78,8 +78,8 @@ Artistry Avenue
                             <div class="col-lg-5 col-sm-6">
                                 <div class="single_product_content">
                                     <h5>Starts from Rs. 10</h5>
-                                    <h2> <a href="single-product">Premium quality paints of various shades</a> </h2>
-                                    <a href="product_list" class="btn_3">Explore Now</a>
+                                    <h2> <a href="product_list">Premium quality paints of various shades</a> </h2>
+                                    <a href="category" class="btn_3">Explore Now</a>
                                 </div>
                             </div>
                         </div>
@@ -107,42 +107,42 @@ Artistry Avenue
                         <div class="single_product_item_thumb">
                             <img src="{{asset('assets/frontend/img/canvas.jpg')}}" alt="#" class="img-fluid">
                         </div>
-                        <h3> <a href="single-product">CANVAS BOARDS</a> </h3>
+                        <h3> <a href="product_list">CANVAS BOARDS</a> </h3>
                         <p>From Rs. 100</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single_product_item">
                         <img src="{{asset('assets/frontend/img/colorpencil.avif')}}" alt="#" class="img-fluid">
-                        <h3> <a href="single-product">COLOUR PENCILS</a> </h3>
+                        <h3> <a href="product_list">COLOUR PENCILS</a> </h3>
                         <p>From Rs. 20</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single_product_item">
                         <img src="{{asset('assets/frontend/img/pencils.avif')}}" alt="#" class="img-fluid">
-                        <h3> <a href="single-product">GRAPHITE PENCILS</a> </h3>
+                        <h3> <a href="product_list">GRAPHITE PENCILS</a> </h3>
                         <p>From Rs. 5</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single_product_item">
                         <img src="{{asset('assets/frontend/img/pocketbrush.jpg')}}" alt="#" class="img-fluid">
-                        <h3> <a href="single-product">POCKET BRUSHES</a> </h3>
+                        <h3> <a href="product_list">POCKET BRUSHES</a> </h3>
                         <p>From Rs. 50</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single_product_item">
                         <img src="{{asset('assets/frontend/img/acrylicpaint.jpg')}}" alt="#" class="img-fluid">
-                        <h3> <a href="single-product">ACRYLIC PAINT</a> </h3>
+                        <h3> <a href="product_list">ACRYLIC PAINT</a> </h3>
                         <p>From Rs. 15</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single_product_item">
                         <img src="{{asset('assets/frontend/img/miniboard.jpg')}}" alt="#" class="img-fluid">
-                        <h3> <a href="single-product">MINI BOARDS</a> </h3>
+                        <h3> <a href="product_list">MINI BOARDS</a> </h3>
                         <p>From Rs. 80</p>
                     </div>
                 </div>

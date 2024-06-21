@@ -124,12 +124,6 @@ Artistry Avenue
         <div class="row">
             <div class="col-md-4">
                 <div class="product_sidebar">
-                    <!-- <div class="single_sedebar">
-                        <form action="#">
-                            <input type="text" name="#" placeholder="Search keyword">
-                            <i class="ti-search"></i>
-                        </form>
-                    </div> -->
                     <div class="single_sedebar" style="margin-bottom:200px;">
                         <div class="select_option">
                             <div class="select_option_list">Category <i class="right fas fa-caret-down"></i></div>

@@ -9,7 +9,7 @@
                                 <a href="/"><img src="{{asset('assets/frontend/img/logo.jpg')}}" alt="logo"></a>
                             </div>
                             <div class="footer_menu_item">
-                                <a href="index ">Home</a>
+                                <a href="/">Home</a>
                                 <a href="about ">About</a>
                                 <a href="product_list ">Products</a>
                                 <a href="contact ">Contact</a>
